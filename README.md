@@ -21,4 +21,7 @@ var options = {
   trim: false
 };
 app.use(xmlBodyParser(options));
+app.post('/xml', function(req, res) {
+  // req.body is a xml-json
+});
 ```

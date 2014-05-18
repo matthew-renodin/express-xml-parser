@@ -14,7 +14,7 @@ function bodyParser(opt) {
       if (err) return next(err);
       parse(body, opt, function(err, result) {
         if (err) return next(err);
-        req.xmlBody = result;
+        req.body = result;
         next();
       });
     });

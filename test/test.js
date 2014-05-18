@@ -13,7 +13,7 @@ describe('test parse stream', function() {
     parser(rs, null, function(err) {
       if (err) done(err);
       try {
-        assert.deepEqual(rs.xmlBody, require('./test.json'), 'not equal');
+        assert.deepEqual(rs.body, require('./test.json'), 'not equal');
       } catch (e) {
         done(e);
         return;

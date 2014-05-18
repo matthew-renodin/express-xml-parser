@@ -1,6 +1,6 @@
 {
   "name": "express-xml-parser",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "express middleware to parse xml body using type-is, raw-body, xml2js",
   "main": "index.js",
   "scripts": {

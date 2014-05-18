@@ -1,6 +1,6 @@
 {
   "name": "express-xml-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "express middleware to parse xml data",
   "main": "index.js",
   "scripts": {

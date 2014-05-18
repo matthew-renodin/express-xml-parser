@@ -1,6 +1,8 @@
 # express-xml-parser
 
-- use `is-type` to check whethor a xml request
+  [![NPM version](https://badge.fury.io/js/express-xml-parser.png)](http://badge.fury.io/js/express-xml-parser) [![Build Status](https://travis-ci.org/idy/express-xml-parser.svg?branch=master)](https://travis-ci.org/idy/express-xml-parser)
+
+- use `is-type` to check whether a xml request
 - use `raw-body` to get decoded text body from request
 - and `xml2js` to parse to json
 
